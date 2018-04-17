@@ -31,7 +31,7 @@ CLOUDFLARE_API_KEY=asdfghjklzxcvbnmqwertyuiop \
 CLOUDFLARE_EMAIL=me@mydomain.com \
 DNS_ZONE=mydomain.com \
 SUBDOMAIN=mysubdomain \
-./cloudflare_ddns
+./build/cloudflare_ddns
 ```
 
 ### Docker
@@ -42,5 +42,5 @@ docker run --net=host \
 -e CLOUDFLARE_EMAIL=me@mydomain.com \
 -e DNS_ZONE=mydomain.com \
 -e SUBDOMAIN=mysubdomain \
-shrikantpatnaik:cloudflare_ddns
+shrikantpatnaik/cloudflare_ddns
 ```
